@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap%27');
+
+/*Definição dos parâmetros pro dark-mode w light-mode*/
+:root {
+    --secondary-color: white;
+    --header-color: #151C35;
+    --background: url('./imagens/background.png');
+    --letra-color: orange;
+    --botao-color: rgb(228, 164, 86);
+    --bhover-color: rgb(226, 143, 42);
+
+}
+
+.dark-mode {
+    --secondary-color: black;
+    --header-color: #e9b2e0;
+    --background: url('./imagens/background5.jpg');
+    --letra-color: #2251d4;
+    --botao-color: #3663e0;
+    --bhover-color: #2251d4;
+}
+
+
+.container-fluid {
+    font-family: 'Anton';
+    background-color: var(--header-color);
+    margin-top: 0;
+}
+
+
+.nav-item {
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.logo-image {
+    width: 80px;
+    top: 0px;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20x;
+}
+
+html {
+    width: 100%;
+    font-family: "Play";
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+    margin-top: -9px;
+    background-color: var(--header-color);
+}
+
+canvas {
+    display: block;
+    margin: 10vh auto;
+    background-color: #000;
+    border: 3px solid green;
+}
+
+.botao a {
+    cursor: pointer;
+    background-color: var(--botao-color);
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+    margin: 30px 0;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: 'Anton';
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+
+.botao a:hover {
+    background-color: var(--bhover-color);
+    color: black;
+}
+
+
+p {
+    color: var(--secondary-color);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
